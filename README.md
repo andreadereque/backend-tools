@@ -1,15 +1,12 @@
-````markdown
+
 # Back-End Tools 2025
 
 Este proyecto implementa un servicio REST en Java con Spring Boot que permite ordenar un conjunto de productos según criterios ponderados: unidades vendidas y ratio de stock. Emplea una arquitectura hexagonal con separación de dominio, aplicación e infraestructura, y utiliza MongoDB para la persistencia de datos.
 
-## Requisitos
+## TODO:
+- Resolver problemas en mi local con la lombok dependencies. (Mix entre @Value, @Getter, @Setter y métodos en crudo)
+- Problemas con la dependencia Groovy
 
-
-- Java 17 o superior  
-- Maven 3.6 o superior  
-- MongoDB (local o Docker)  
-- Git  
 
 ## Ejecución
 
@@ -17,7 +14,7 @@ Este proyecto implementa un servicio REST en Java con Spring Boot que permite or
    ```bash
    git clone https://github.com/andreadereque/backend-tools-2025.git
    cd backend-tools-2025
-````
+
 
 2. Configurar MongoDB en `src/main/resources/application.properties`:
 
