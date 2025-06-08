@@ -1,4 +1,4 @@
-package com.andrea.backendtools.backendtools;
+package com.andrea.backendtools;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

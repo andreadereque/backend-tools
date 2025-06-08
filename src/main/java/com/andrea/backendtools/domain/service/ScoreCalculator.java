@@ -1,7 +1,7 @@
-package com.andrea.backendtools.backendtools.domain.service;
+package com.andrea.backendtools.domain.service;
 
-import com.andrea.backendtools.backendtools.domain.model.CriteriaWeight;
-import com.andrea.backendtools.backendtools.domain.model.Product;
+import com.andrea.backendtools.domain.model.CriteriaWeight;
+import com.andrea.backendtools.domain.model.Product;
 
 import java.util.List;
 

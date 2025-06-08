@@ -1,10 +1,10 @@
-package com.andrea.backendtools.backendtools.infraestructure.api;
+package com.andrea.backendtools.infrastructure.api;
 
 
-import com.andrea.backendtools.backendtools.domain.criteria.SalesUnitCriteria;
-import com.andrea.backendtools.backendtools.domain.criteria.StockRatioCriteria;
-import com.andrea.backendtools.backendtools.domain.model.Product;
-import com.andrea.backendtools.backendtools.domain.model.CriteriaWeight;
+import com.andrea.backendtools.domain.criteria.SalesUnitCriteria;
+import com.andrea.backendtools.domain.criteria.StockRatioCriteria;
+import com.andrea.backendtools.domain.model.Product;
+import com.andrea.backendtools.domain.model.CriteriaWeight;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

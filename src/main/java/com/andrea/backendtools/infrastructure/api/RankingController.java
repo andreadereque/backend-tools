@@ -1,8 +1,8 @@
-package com.andrea.backendtools.backendtools.infraestructure.api;
+package com.andrea.backendtools.infrastructure.api;
 
-import com.andrea.backendtools.backendtools.domain.model.CriteriaWeight;
-import com.andrea.backendtools.backendtools.domain.model.Product;
-import com.andrea.backendtools.backendtools.domain.service.ProductRankingService;
+import com.andrea.backendtools.domain.model.CriteriaWeight;
+import com.andrea.backendtools.domain.model.Product;
+import com.andrea.backendtools.domain.service.ProductRankingService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

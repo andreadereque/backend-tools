@@ -1,4 +1,4 @@
-package com.andrea.backendtools.backendtools;
+package com.andrea.backendtools;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

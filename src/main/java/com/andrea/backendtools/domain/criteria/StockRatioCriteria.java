@@ -1,6 +1,6 @@
-package com.andrea.backendtools.backendtools.domain.criteria;
+package com.andrea.backendtools.domain.criteria;
 
-import com.andrea.backendtools.backendtools.domain.model.Product;
+import com.andrea.backendtools.domain.model.Product;
 
 public class StockRatioCriteria implements ScoringCriteria{
     @Override
