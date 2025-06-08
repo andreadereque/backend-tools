@@ -12,6 +12,11 @@ public class RankingRequest {
     List<ProductDTO> products;
     Map<String,Double> weights;
 
+    public RankingRequest(List<ProductDTO> products, Map<String, Double> weights) {
+        this.products = products;
+        this.weights = weights;
+    }
+
     public List<ProductDTO> getProducts() {
         return products;
     }
