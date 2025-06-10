@@ -2,6 +2,7 @@ package com.andrea.backendtools.domain.service;
 
 import com.andrea.backendtools.domain.criteria.NormalizedSalesUnitsCriteria;
 import com.andrea.backendtools.domain.criteria.SalesUnitCriteria;
+import com.andrea.backendtools.domain.criteria.ScoringCriteria;
 import com.andrea.backendtools.domain.model.CriteriaWeight;
 import com.andrea.backendtools.domain.model.Product;
 import lombok.RequiredArgsConstructor;
@@ -31,7 +32,8 @@ public class ProductRankingService {
 
         List<CriteriaWeight> normalizedWeights = criteriaWeights.stream()
                 .map(cw -> {
-                    if (cw.getCriteria() instanceof SalesUnitCriteria) {
+                    ScoringCriteria criteria = cw.getCriteria();
+                    if (criteria instanceof SalesUnitCriteria) {
                         return new CriteriaWeight(
                                 new NormalizedSalesUnitsCriteria(maxSales),
                                 cw.getWeight()

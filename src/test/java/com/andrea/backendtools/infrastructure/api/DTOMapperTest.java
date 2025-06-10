@@ -49,4 +49,14 @@ class DTOMapperTest {
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessageContaining("Criterio desconocido");
     }
+
+    @Test
+    void validateProductData() {
+        // Test de validación de datos de producto
+    }
+
+    @Test
+    void validateWeightConstraints() {
+        // Test de restricciones de pesos
+    }
 }
