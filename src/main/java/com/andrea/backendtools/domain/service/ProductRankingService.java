@@ -5,7 +5,6 @@ import com.andrea.backendtools.domain.criteria.SalesUnitCriteria;
 import com.andrea.backendtools.domain.criteria.ScoringCriteria;
 import com.andrea.backendtools.domain.model.CriteriaWeight;
 import com.andrea.backendtools.domain.model.Product;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Comparator;
