@@ -11,8 +11,9 @@ public class ScoreCalculator {
         this.criteriaWeights = criteriaWeights;
     }
 
-    public double calculate(Product product){
+    public double calculate(Product p) {
         return criteriaWeights.stream()
-                .mapToDouble(cw -> cw.weightScore(product)).sum();
-    }
+            .mapToDouble(cw -> cw.weightScore(p))
+            .sum();
+         }
 }

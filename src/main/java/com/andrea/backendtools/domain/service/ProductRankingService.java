@@ -21,9 +21,9 @@ public class ProductRankingService {
      * @param products a ordenar
      * @return lista ordenada segun pesos y criterios
      */
-    public List<Product> rank(List<Product> products){
-        ScoreCalculator calculator = new ScoreCalculator(criteriaWeightList);
-        return  products.stream()
+    public List<Product> rank(List<Product> products, List<CriteriaWeight> criteriaWeights) {
+        ScoreCalculator calculator = new ScoreCalculator(criteriaWeights);
+        return products.stream()
                 .sorted(Comparator.comparingDouble(calculator::calculate).reversed())
                 .collect(Collectors.toList());
     }

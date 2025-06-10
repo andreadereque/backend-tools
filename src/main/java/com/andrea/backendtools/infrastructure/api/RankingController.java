@@ -27,7 +27,7 @@ public class RankingController {
 
         List<Product> domainProducts = mapper.toDomain(request.getProducts());
         List<CriteriaWeight> weights = mapper.toCriteriaWeights(request.getWeights());
-        List<Product> ranked = rankingService.rank(domainProducts);
+        List<Product> ranked = rankingService.rank(domainProducts, weights);
         return new RankingResponse(mapper.toDTOs(ranked));
     }
 }

@@ -25,7 +25,7 @@ public class CriteriaWeight {
     /**
      * puntuación ponderada de este criterio para el producto
      */
-    public double weightScore(Product product){
-        return weight*criteria.score(product);
+    public double weightScore(Product product) {
+        return weight * criteria.score(product);
     }
 }
