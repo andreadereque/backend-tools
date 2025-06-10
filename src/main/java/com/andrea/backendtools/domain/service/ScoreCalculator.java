@@ -13,7 +13,7 @@ public class ScoreCalculator {
 
     public double calculate(Product p) {
         return criteriaWeights.stream()
-            .mapToDouble(cw -> cw.weightScore(p))
-            .sum();
-         }
+                .mapToDouble(cw -> cw.weightScore(p))
+                .sum();
+    }
 }
