@@ -8,20 +8,6 @@ public class CriteriaWeight {
     ScoringCriteria criteria;
     double weight;
 
-
-    public ScoringCriteria getCriteria() {
-        return criteria;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public CriteriaWeight(ScoringCriteria criteria, double weight) {
-        this.criteria = criteria;
-        this.weight = weight;
-    }
-
     /**
      * puntuación ponderada de este criterio para el producto
      */
